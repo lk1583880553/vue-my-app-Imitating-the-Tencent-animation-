@@ -9,7 +9,7 @@ export default {
 		}
 	},
 	computed:{
-		...mapState({//你store/movie中定义的初始状态是什么，key值就是什么，中间{}中的store/index.js中的modules中的key值
+		...mapState({//store/movie中定义的初始状态是什么，key值就是什么，中间{}中的store/index.js中的modules中的key值
 			movieList: ({movie}) => movie.movieList
 		})
 	},

@@ -128,16 +128,6 @@
 			</ul>
 		</div>
 	</section>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		<footer class="bottom">
 			<div class="bottom-row">
 				<i class="npc-3">[NPC图片3]</i>
