@@ -1,0 +1,14 @@
+@import '@/lib/reset.scss';
+.movieList{
+    display:block;
+  li{
+    @include rect(100%,1rem);
+    @include border(0 0 2px 0, red);
+    display:block;
+    img{
+      @include rect(auto, 0.9rem);
+//    @include fullscreen();//scss中的定位方法
+      @include margin(0.05rem);
+    }
+  }
+}

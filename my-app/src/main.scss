@@ -1,0 +1,44 @@
+@import './lib/reset.scss';
+
+html, body, .container{
+    @include rect(100%,100%);
+}
+html{
+    @include root-scroll();
+}
+.container{
+    @include flexbox();
+    @include flex-direction(column);
+    header{
+        @include rect(100%,2.6rem);
+        // @include background-color(#FA8072);
+    }
+    .content{
+        @include flex();
+        @include rect(100%, auto);
+        @include overflow();
+		margin-bottom: 63px;
+    }
+    footer{
+        @include rect(100%,0.55rem);
+        // @include background-color(#F08080);
+    }
+}
+// .slide-fade-enter-active {
+//   transition: all .3s linear;
+// }
+// .slide-fade-leave-active {
+//   transition: all 0s linear;
+// }
+// .slide-fade-enter {
+//   transform: translateX(100%);
+// }
+// .slide-fade-enter-to {
+//   transform: translateX(0%);
+// }
+// .slide-fade-leave {
+//   transform: translateX(0);
+// }
+// .slide-fade-leave-to {
+//   transform: translateX(-100%);
+// }

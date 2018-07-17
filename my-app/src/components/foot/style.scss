@@ -1,0 +1,26 @@
+// @import '@/lib/reset.scss';
+// ul{
+//     @include flexbox();
+//     @include rect(100%,100%);
+//     li{
+//         @include flexbox();
+//         @include flex();
+//         @include flex-direction(column);
+//         @include justify-content();
+//         @include align-items();
+//         @include text-color(rgb(46, 44, 44));
+//         i{
+//             @include font-size(0.25rem);
+//         }
+//         p{
+//             @include font-size(0.05rem);
+//             @include font-weight(bold);
+//         }
+//         &.router-link-active{
+//             @include background-color(#87CEEB);
+//             i,p{
+//                 @include text-color(#FF4500);
+//             }
+//         }
+//     }
+// }

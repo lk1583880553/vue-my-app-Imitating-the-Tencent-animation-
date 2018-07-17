@@ -1,0 +1,38 @@
+.swiper{
+	width:100%;
+	height:13rem;
+	.wc-default-swiper-box{
+			width:100%;
+			height:100%;
+			.wc-slide{
+					width:100%;
+					height:100%;
+					a{
+							width:100%;
+							height:100%;
+							img{
+									width:100%;
+									height:100%;
+							}
+					}
+			}
+	}
+	.wc-pagination{
+		bottom: 28px;
+	}
+}
+.movieList{
+  display:block;
+  li{
+		width:100%;
+		height:1rem;
+		border:(0 0 2px 0,red);
+    display:block;
+    img{
+			width:auto;
+			height:0.9rem;
+//    @include fullscreen();//scss中的定位方法
+			margin:0.05rem;
+    }
+  }
+}
